@@ -6,7 +6,10 @@ printf("Enter a number :");
 scanf("%d",&number);
 
 while(i<=10){
-    printf("%d \n",i*number);
+        if(i==5){
+            continue;
+        }
+    printf("%d \n",i);
     i++;
 }
 
