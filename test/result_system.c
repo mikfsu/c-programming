@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-int i,marks;
+int ,marks;
 printf("Enter marks:");
 scanf("%d",&marks);
 

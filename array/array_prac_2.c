@@ -11,6 +11,7 @@ void main(){
 
     printf("Print array input value: \n");
     for(int i=0; i<5; i++) {
+
         printf("%d\n", marks[i]);
     }
 
