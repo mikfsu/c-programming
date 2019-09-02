@@ -1,11 +1,14 @@
 #include<stdio.h>
+void odd();
+void even();
+int n=1;
 void main()
 {
-    int n=1;
-    int odd();
+
+    odd();
 
 }
-int odd(int n)
+void odd()
 {
     if(n<=10)
     {
@@ -15,13 +18,12 @@ int odd(int n)
     }
     return;
 }
-int even(int n)
+void even()
 {
     if(n<=10)
     {
         printf("%d",n-1);
         n++;
-
         odd();
     }
     return;
